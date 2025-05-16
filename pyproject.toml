@@ -1,0 +1,10 @@
+[project]
+name = "multi-ping"
+version = "0.1.0"
+description = "a multi ping tool"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ping3>=4.0.8",
+    "requests>=2.32.3",
+]
