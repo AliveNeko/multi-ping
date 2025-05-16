@@ -23,3 +23,18 @@ git clone https://github.com/AliveNeko/multi-ping.git
 ```shell
 uv run main.py
 ```
+
+## 效果
+
+`ip.txt`文件内容：
+
+```
+1.1.1.1
+```
+
+执行后，`result.csv`的内容：
+
+```csv
+IP,平均延迟,丢包率,地区,ASN
+1.1.1.1,313.13 ms,0.0%,AU,"Cloudflare, Inc."
+```
