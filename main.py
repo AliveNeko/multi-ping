@@ -33,7 +33,7 @@ def process_ip(ip):
         "https": "http://127.0.0.1:7897"
     }
     session = requests.Session()
-    session.proxies = proxies
+    # session.proxies = proxies
 
     # IP信息查询
     ipInfoUrl = f'https://api.ipinfo.io/lite/{ip}'
