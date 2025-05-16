@@ -12,5 +12,14 @@
 git clone https://github.com/AliveNeko/multi-ping.git
 ```
 
-#### 安装依赖
+#### 设置 IP 
 
+在`ip.txt `文件中填写想要测试的 IP 数据，每行一个 IP地址。
+
+#### 执行
+
+执行运行命令（会自动下载依赖）：
+
+```shell
+uv run main.py
+```
